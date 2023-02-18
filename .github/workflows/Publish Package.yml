@@ -23,4 +23,4 @@ jobs:
               tag: latest
               dockerServer: ghcr.io
               dockerUser: ${{ secrets.DOCKER_USERNAME }} # dockerServer Username 在setting创建secrets name=DOCKER_USERNAME  value=dockerid
-              dockerPassword: ${{ secrets.GITHUB_TOKEN }} # dockerServer Token
+              dockerPassword: ${{ secrets.DOCKER_PASSWORD }} # dockerServer Token
