@@ -3,7 +3,7 @@ FROM alpine:edge
 
 # 维护者信息
 LABEL maintainer "hxs"
-LABEL org.opencontainers.image.source=https://github.com/qiandao-today/ddddocr-docker
+LABEL org.opencontainers.image.source=https://github.com/huxuesen/ocr-docker
 
 # Envirenment for onnxruntime & dddocr
 ENV ONNXRUNTIME_TAG=v1.13.1
