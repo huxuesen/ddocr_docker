@@ -4,7 +4,6 @@
 
 
 ```bash
-docker pull a76yyyy/ddddocr:latest
 ```
 
 ## **VERSION**
